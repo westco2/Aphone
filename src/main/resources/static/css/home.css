@@ -1,0 +1,154 @@
+body{width: 100%; background-color: #f5f5f7;}
+#header{}
+
+/* 상단 바*/
+
+#header .nav{display: block; background-color: #161617CC; backdrop-filter: blur(10px); border-radius: 8px 0 0 0; position: fixed; top: 0; left: 0; width: 100%; min-height: 5vh; z-index: 10; }
+.navac{display: block; background-color: black; ; border-radius: 8px 0 0 0; position: fixed; top: 0; left: 0; width: 100%; height: 0; z-index: 9; transition: height 0.12s ease-in;}
+#header .container{}
+#header .box{display: flex; min-height: inherit; align-items: center; justify-content: space-between; margin: 0 auto; box-sizing: border-box; width: 100%; max-width: 1024px; }
+#header .container .item{position: relative;}
+#header .container .item a{text-decoration: none; cursor: pointer; display: inline-block; opacity: 0.8; transition: opacity 0.3s ease-in-out;}
+#header .container .item a:hover{opacity: 1;}
+.store{position: relative;}
+
+#header .container .item a span{font-size: 11px; font-weight: 200; line-height: 1; display: flex; align-items: center; justify-content: center; color: rgba(255, 255, 255, 8); height: 44px;}
+#header .container .item .logo{width: 18px; padding-bottom: 4px; }
+.ri-shopping-bag-line{font-size: 16px;}
+.cartb{color: #f5f5f7;}
+
+#header .iphone-nav{position: relative; background-color: #f2f2f2;}
+#header .iphone-nav .container .item a span{font-size: 11px; font-weight: 200; line-height: 1; display: flex; align-items: center; justify-content: center; color:#333; height: 44px;}
+#header .iphone-nav .container .item .w-logo{width: 15px;}
+
+.reple-wrap{ transition: height 0.3s ease-in-out; width: 100%; height: 0px; background-color: #000; top: 44px; left: 0; overflow: hidden; z-index: 20; position: absolute;}
+.replebot{ max-width: 920px; margin: 0 auto;  overflow: hidden; z-index: 10; }
+.replebot h4{padding-top: 40px; font-weight: 600; font-size: 20px; margin-bottom: 40px;}
+.reple-acco{font-size: 11px; color: #fff;}
+.reple-acco h5{color: #fff; margin-bottom: 20px; font-size: 13px;}
+.reple-content i{padding-right: 5px;}
+
+.reple-content a{text-decoration: none; color: #fff; font-size: 13px; opacity: 0.7; transition: opacity .2s;}
+.reple-content a:hover{opacity: 1;}
+
+/* 2번째 줄*/
+
+.bar{margin-top: 40px; background-color: #fff; width: 100%; padding: 5px 0;}
+.bar .section-content{box-sizing: border-box; position: relative; padding-top: 0; border-style: none; overflow: visible; border-left-width: 0px; border-right-width: 0px; text-align: center; padding: 10px 0; width: 100%;}
+.bar .section-content .copy{font-size: 13px; cursor: pointer; }
+
+/* iphone15*/
+
+.pp1{ position: relative; background-color: rgb(0,0,0); min-height: 630px; padding: 0px 250px; width: 100%;}
+.pp2{background-image: url("img/hero_iphone15pro__i70z9oz3hj2i_large.jpg"); height: 630px; background-repeat: no-repeat; background-size: cover; background-position: center; width: 100%;}
+.main{text-align: center; margin-top: 0px; position: absolute; top: 40px; left: 0; margin: 0 auto; width: 100%;}
+.unit-copy{position: relative; flex-grow: 0; margin-top: calc(44px + 0px); background-color: rgb(0,0,0); }
+.unit-copy h1{color: #f5f5f7; font-size: 50px; font-weight: 600;}
+.unit-copy h3{color: #f5f5f7;}
+.unit-copy .link {margin-top: 20px; cursor: pointer; z-index: 4; }
+.unit-copy .link a {display: inline-block; font-size: 18px;}
+.unit-copy .link .right{display: inline-block; margin-left: 20px;}
+
+/*생활용 아이패드*/
+
+.ss1{margin-top: -100px; background-image: url("img/hero_bts2023_startframe__f787lg06y3ue_large.jpg"); background-size: cover; height: 850px; width: 100%; background-repeat: no-repeat; background-position: center; padding: 0 250px;}
+.ss1 .ss2{text-align: center; }
+.ss1 .ss2 .ss3{padding: 30px 30px; padding-top: 150px; }
+.ss1 .ss2 .ss3 h2{font-size: 50px; font-weight: 600;}
+.ss1 .ss2 .ss3 h3{}
+.ss1 .ss2 .ss3 a{cursor: pointer; display: block; margin-top: 30px; font-size: 20px; color: #0066CC;}
+
+/*이벤트*/
+.wrap-bal{width: 100%; height: 100%; margin-top: -20px; position: relative;}
+.bal{background-image: url("img/hero_valentines_day_2024__dyne8c2no3ki_large.jpg"); background-size: 3008px 624px; background-position: center; height: 624px; width: 100%; background-repeat: no-repeat;}
+.bal .bal2{text-align: center; position: absolute; bottom: 50px; left: 0; width: 100%;}
+.bal .bal2 h2{ font-weight: 800; font-size: 50px;}
+.bal .bal2 h3{}
+.bal .bal2 a{color: #0066CC; cursor: pointer;}
+
+/*6창 이미지*/
+
+.container2 { display: flex; justify-content: space-between; width: 100%; flex-wrap: wrap; }
+.container2 .item{position: relative; width: 50%; margin-top: 10px; text-align: center; box-sizing: border-box;}
+.container2 .item .p1{background-image: url("img/promo_iphone15_announce__fmxxi8r9fkuy_large.jpg"); height: 580px; min-width: 100%; background-repeat: no-repeat; background-size: cover; background-position: center; }
+.container2 .item .p2{margin-left: 10px; background-image: url("img/promo_apple_music_classical__u2fpeawh3zmq_large.jpg"); height: 580px; min-width: 98%; background-size: cover; background-repeat: no-repeat; background-position: center;}
+.container2 .item .pcon1{position: absolute; top: 40px; left: 0; width: 100%;}
+.container2 .item .pcon1 h2{font-weight: 600; font-size: 40px;}
+.container2 .item .pcon1 h3{font-size: 20px;}
+.mo{margin-top: 20px; font-size: 15px; color: #0066CC; cursor: pointer;}
+.mo .mol{display: inline-block; margin-left: 20px;}
+.container2 .item .pcon2{position: absolute; top: 60px; left: 0; width: 100%;}
+.container2 .item .pcon2 img{}
+.container2 .item .pcon2 .rh4{margin-top: 15px; color: #f5f5f7; line-height: 1.5;}
+.container2 .item .pcon2 .linkp{color: #f5f5f7; font-size: 16px; cursor: pointer;}
+.rh42{line-height: 1.5;}
+
+.container2 .item .p3{background-image: url("img/promo_apple_hongdae_store__f6iy8v8ozhim_large.jpg"); height: 580px; min-width: 100%; background-repeat: no-repeat; background-size: cover; background-position: center; }
+.rep h2{color: #f5f5f7;}
+.rep h3{color: #f5f5f7;}
+.rep a{color: #f5f5f7; cursor: pointer;}
+.container2 .item .p4{margin-left: 10px; background-image: url("img/promo_apple_watch_series_9_order__b3u85rm9zf6u_large.jpg"); height: 580px; min-width: 98%; background-size: cover; background-repeat: no-repeat; background-position: center;}
+
+.container2 .item .p5{background-image: url("img/promo_se_airpods__czbkik7337yq_large.jpg"); height: 580px; min-width: 100%; background-repeat: no-repeat; background-size: cover; background-position: center; }
+.container2 .item .p6{margin-left: 10px; background-image: url("img/promo_iphone_tradein__bugw15ka691e_large.jpg"); height: 580px; min-width: 98%; background-size: cover; background-repeat: no-repeat; background-position: center;}
+
+
+
+/* 아티클 */
+#art{height: auto;}
+.slider-part{
+    padding: 20px 0;
+    width: 100%;
+    height: 78vh;
+}
+.swiper {
+    width: 100%;
+    height: 100%;
+    
+}
+
+.swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.swiper-slide {
+    width: 90%;
+    background-position: center;
+    background-size: cover;
+}
+.swiper-slide-prev::before,
+.swiper-slide-next::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(198, 202, 202, 0.6); /* 회색 필터 */
+    transition: background-color 0.5s ease;
+    
+}
+
+
+.swiper-1{ background-image: url("img/980x551.jpg");}
+.swiper-2{ background-image: url("img/980x5511.jpg");}
+.swiper-3{ background-image: url("img/980x5512.jpg");}
+.swiper-4{ background-image: url("img/980x5513.jpg");}
+.swiper-5{ background-image: url("img/980x5514.jpg");}
+.swiper-6{ background-image: url("img/980x5515.jpg");}
+.swiper-7{ background-image: url("img/980x5516.jpg");}
+.swiper-8{ background-image: url("img/980x5517.jpg");}
+.swiper-9{ background-image: url("img/980x5518.jpg");}

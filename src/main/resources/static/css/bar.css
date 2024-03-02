@@ -1,0 +1,29 @@
+/* 상단 바*/
+body{position: relative;}
+#header .nav{display: block; background-color: #161617CC; backdrop-filter: blur(10px); border-radius: 8px 0 0 0; position: fixed; top: 0; left: 0; width: 100%; min-height: 5vh; z-index: 10; }
+.navac{display: block; background-color: black; ; border-radius: 8px 0 0 0; position: fixed; top: 0; left: 0; width: 100%; height: 0; z-index: 9; transition: height 0.12s ease-in;}
+#header .container{}
+#header .box{display: flex; min-height: inherit; align-items: center; justify-content: space-between; margin: 0 auto; box-sizing: border-box; width: 100%; max-width: 1024px; }
+#header .container .item{position: relative;}
+#header .container .item a{text-decoration: none; cursor: pointer; display: inline-block; opacity: 0.8; transition: opacity 0.3s ease-in-out;}
+#header .container .item a:hover{opacity: 1;}
+.store{position: relative;}
+
+#header .container .item a span{font-size: 11px; font-weight: 200; line-height: 1; display: flex; align-items: center; justify-content: center; color: rgba(255, 255, 255, 8); height: 44px;}
+#header .container .item .logo{width: 18px; padding-bottom: 3px; }
+.ri-shopping-bag-line{font-size: 16px;}
+.cartb{color: #f5f5f7;}
+
+#header .iphone-nav{position: relative; background-color: #f2f2f2; overflow: hidden;}
+#header .iphone-nav .container .item a span{font-size: 11px; font-weight: 200; line-height: 1; display: flex; align-items: center; justify-content: center; color:#333; height: 44px;}
+#header .iphone-nav .container .item .w-logo{width: 15px;}
+
+.reple-wrap{ transition: height 0.3s ease-in-out; width: 100%; height: 0px; background-color: #fff; top: 44px; left: 0; overflow: hidden; z-index: 20; position: absolute;}
+.replebot{ max-width: 920px; margin: 0 auto;  overflow: hidden; z-index: 10; }
+.replebot h4{padding-top: 40px; font-weight: 600; font-size: 20px; margin-bottom: 40px;}
+.reple-acco{font-size: 11px; color: #333336;}
+.reple-acco h5{color: #6e6e73; margin-bottom: 20px; font-size: 13px;}
+.reple-content i{padding-right: 5px;}
+
+.reple-content a {cursor: pointer; text-decoration: none; color: #333336; opacity: 0.7; transition: opacity .2s;}
+.reple-content a:hover{opacity: 1;}

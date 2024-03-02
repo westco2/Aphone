@@ -1,0 +1,1347 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <!-- bootstrap -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@3.4.1/dist/css/bootstrap.min.css" integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">
+  <!-- 커스텀 reset css -->
+  <!-- 커스텀 css -->
+  <link rel="stylesheet" href="../css/bar.css">
+  <link rel="stylesheet" href="../css/footer.css">
+  <link rel="stylesheet" href="../css/bot.css">
+  <link rel="stylesheet" href="../css/iphone.css">
+
+  <link rel="stylesheet" href="../css/custom-reset.css">
+
+  <!-- 아이콘 -->
+  <link
+          href="https://cdn.jsdelivr.net/npm/remixicon@4.1.0/fonts/remixicon.css"
+          rel="stylesheet"
+  />
+
+  <link
+          rel="stylesheet"
+          href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+  />
+
+
+
+</head>
+<body>
+<header id="header">
+
+  <div class="nav iphone-nav">
+    <div class="container box">
+      <div class="item"><a href="/home"><img class="logo w-logo" src="../css/iphone/icon_large.svg" alt=""></a></div>
+      <div class="item store"><a href="/main/store"><span >스토어</span></a></div>
+      <div class="item h-mac"><a><span>Mac</span></a></div>
+      <div class="item h-ipad"><a><span>iPad</span></a></div>
+      <div class="item h-iphone"><a href="/main/iphone"><span>iPhone</span></a></div>
+      <div class="item h-watch"><a><span>Watch</span></a></div>
+      <div class="item h-airpod"><a><span>AirPods</span></a></div>
+      <div class="item"><a><span>TV 및 홈</span></a></div>
+      <div class="item"><a><span>엔터테인먼트</span></a></div>
+      <div class="item"><a><span>액세서리</span></a></div>
+      <div class="item"><a><span>고객지원</span></a></div>
+      <div class="item"><a><img src="../css/iphone/sreach.svg"></a></div>
+      <div class="item beg"><a><img src="../css/iphone/beg.svg"></a></div>
+    </div>
+  </div>
+</header>
+<div class="reple-wrap">
+  <div class="replebot">
+    <h4>관심상품이 비어 있습니다</h4>
+    <div class="reple-acco">
+      <h5>내 계정</h5>
+      <div class="reple-content">
+        <p><i class="ri-box-3-line"></i><a href="../UI_B_4/order.html">주문</a></p>
+        <p><i class="ri-bookmark-line"></i><a href="../UI_B_5/attention.html">관심목록</a></p>
+        <p><i class="ri-play-circle-line"></i><a href="../UI_B_3/account.html">계정</a></p>
+        <p><i class="ri-account-circle-line"></i><a href="../UI_B_1/login.html">로그인</a></p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="mouw">
+  <section id="top-bar" >
+    <div class="bar-p">
+      <div >
+        <a>
+          <img src="../css/iphone/iphone_15_pro_light__diyvo6c7yu82_large.svg">
+          <span>iPhone 15 pro</span>
+          <p class="new">New</p>
+        </a>
+      </div>
+      <div>
+        <a>
+          <img src="../css/iphone/iphone_15_light__euftnkhrzdea_large.svg">
+          <span>iPhone 15</span>
+          <p class="new">New</p>
+        </a>
+      </div>
+      <div>
+        <a>
+          <img src="../css/iphone/iphone_14_light__fwknsxkf80uq_large.svg">
+          <span>iPhone 14</span>
+          <span></span>
+        </a>
+      </div>
+      <div>
+        <a>
+          <img src="../css/iphone/iphone_13_light__ewo3e0sf67o2_large.svg">
+          <span>iPone 13</span>
+          <span></span>
+        </a>
+      </div>
+      <div>
+        <a>
+          <img src="../css/iphone/iphone_se_light__fhg8duy6ffau_large.svg" width="19px">
+          <span>iPhone SE</span>
+          <span></span>
+        </a>
+      </div>
+      <div>
+        <a>
+          <img src="../css/iphone/iphone_compare_light__f4jj7brpbvm2_large.svg">
+          <span>비교하기</span>
+          <span></span>
+        </a>
+      </div>
+      <div>
+        <a>
+          <img src="../css/iphone/airpods_light__8oj157p2476a_large.svg">
+          <span>AirPods</span>
+          <span></span>
+        </a>
+      </div>
+      <div>
+        <a>
+          <img src="../css/iphone/airtag_light__cb2bmnv6aoeu_large.svg" width="30px">
+          <span>AirTag</span>
+          <span></span>
+        </a>
+      </div>
+      <div>
+        <a>
+          <img src="../css/iphone/accessories_light__ed5l6ipsevqu_large.svg">
+          <span>액세서리</span>
+          <span></span>
+        </a>
+      </div>
+      <div>
+        <a>
+          <img src="../css/iphone/iphone_ios_light__b8s4ws8o77iq_large.svg" width="32px">
+          <span>iOS 17</span>
+          <span></span>
+        </a>
+      </div>
+      <div>
+        <a>
+          <img src="../css/iphone/shop_iphone_light__b2toggskllle_large.svg">
+          <span>iPhone 쇼핑하기</span>
+          <span></span>
+        </a>
+      </div>
+
+    </div>
+    <div class="snd-bar">
+      <div class="section-content2">
+                <span class="copy2">
+                    iPhone 11 이상의 모델을 보상 판매하면 iPhone 15 또는 iPhone 15 Pro 구입 시<br>
+                    사용할 수 있는 220,000원 ~ 970,000원 상당의 크레딧이.
+                    <sup></sup>
+                    <span class="nowrap"><a style="cursor: pointer;">iPhone 쇼핑하기 ></a></span>
+                </span>
+      </div>
+    </div>
+    <div class="snd-iphone15">
+      <div class="tita">
+        <p class="new" style="font-size: 12px; font-weight: 600;">New</p>
+        <img src="../css/iphone/iphone_15_pro_logo__xsnr3zpj28yu_large.jpg" style="margin-bottom: 15px;"><br>
+        <img src="../css/iphone/headline_titanium__cj5ay941qj6u_large.jpg" style="margin-bottom: 22px;"><br>
+        <span class="p-price">₩1,550,000부터</span>
+        <div class="sell-group">
+          <button type="button" onclick="location.href='../UI_A_3/store.html'">구입하기</button>
+          <a style="color: #2997ff; cursor: pointer; font-size: 18px; margin-top: 15px;">더 알아보기 ></a>
+        </div>
+        <div class="iphoneimg"></div>
+      </div>
+    </div>
+    <div class="snd-iphone15 two">
+      <div class="tita">
+        <p class="new" style="font-size: 12px; font-weight: 600;">New</p>
+        <img src="../css/iphone/iphone_15_logo__bva4cdj5koty_large.jpg" style="margin-bottom: 0px;"><br>
+        <h1 style="color: #1d1d1f; font-weight: 800; font-size: 42px;">새로움 물씬</h1>
+        <span class="p-price" style="color: #1d1d1f; margin-top: 25px;">₩1,220,000부터</span>
+        <div class="sell-group">
+          <button type="button" onclick="location.href='../UI_C_1/product.html'">구입하기</button>
+          <a style="color: #2997ff; cursor: pointer; font-size: 18px; margin-top: 15px;">더 알아보기 ></a>
+        </div>
+        <div class="iphoneimg2"></div>
+      </div>
+    </div>
+    <div class="snd-iphone15 two se-section" style="margin-bottom: 0;">
+      <div class="section-content row2">
+        <div class="se-left">
+          <img src="../css/iphone/iphone_se_logo__ii1n5sjcmci2_large.jpg" style="margin-bottom: 15px; margin-top: 0;"><br>
+          <p class="bluese" style="font-size: 41px; font-weight: 600; text-align: center;">거침없는 파워.<br>실속있는 선택.</p>
+          <span class="p-price" style="color: #1d1d1f; margin: 28px 0; font-size: 20px;">₩620,000부터</span>
+          <div class="sell-group bb" style="margin-top: 30px;">
+            <button type="button">구입하기</button>
+            <a style="color: #2997ff; cursor: pointer; font-size: 18px; margin-top: 17px; padding-top: 5px;">더 알아보기 ></a>
+          </div>
+        </div>
+        <div class="se-right">
+          <div class="sephoto"></div>
+        </div>
+
+      </div>
+    </div>
+    <div class="snd-iphone15 two se-section" style="padding-top: 15px; background-color: #ffffff;">
+      <div class="mid">
+        <div class="midimg">
+          <div class="midimg-content">
+            <span class="cont1">가이드</span>
+            <span class="cont2">아이폰 15 및<br>아이폰 15 Pro</span>
+            <span class="cont3">
+                            <a href="/main/info">더 알아보기</a>
+                        </span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section id="phone-contents" style="margin-top: -13px;">
+    <h2 style="font-size: 42px; font-weight: 600; margin: 0;">당신에게 알맞은 iPhone은?</h2>
+    <div class="conts">
+      <div class="detail-conts">
+        <div class="ph-item pop" style="border-bottom: 1px solid #d2d2d7; padding-bottom: 25px;">
+          <img src="../css/iphone/compare_iphone_15_pro__c344odaqs5qq_large.png"> <br>
+          <img src="../css/iphone/swatch_iphone_15_pro__gdyn1ct073m2_large.png">
+          <p class="new">New</p>
+          <div class="ph-content">
+            <img class="logop" src="../css/iphone/logo_iphone_15_pro__drdmya1am5ea_large.png"><br>
+            <p style="font-size: 15px;">궁극의 iPhone</p>
+            <br>
+            <span>₩1,550,000부터</span>
+            <div class="sell-group bb">
+              <button type="button">구입하기</button>
+              <a style="color: #2997ff; cursor: pointer; margin: 15px 0; font-size: 12px; ">더 알아보기 ></a>
+            </div>
+          </div>
+        </div>
+        <div class="ph-item">
+          <h4>17.0cm 또는 15.5cm</h4>
+          <p>Super Retina XDR 디스플레이</p>
+          <p>ProMotion기술</p>
+          <p>상시표시형 디스플레이</p>
+        </div>
+        <div class="ph-item">
+          <img src="../css/iphone/icon_design__bbi8qdcsnygy_large.png">
+          <p>티타늄 및 표면 질감을 살린<br> 무광 글래스 소재 후면</p>
+          <p>동작 버튼</p>
+        </div>
+        <div class="ph-item">
+          <img src="../css/iphone/icon_dynamic_island__d9d7y565nzsm_large.png">
+          <p>Dynamic Island</p>
+          <p>iPhone을 다루는<br>신박한 방법</p>
+        </div>
+        <div class="ph-item">
+          <img src="../css/iphone/icon_a17__cdbw51i5m1qu_large.png">
+          <p>A17 Pro 칩<br>6코어 GPU 탑재</p>
+        </div>
+        <div class="ph-item">
+          <img src="../css/iphone/icon_14_pro_camera__fxu2mrckyk2u_large.png">
+          <p>프로급 카메라 시스템</p>
+          <p>48MP 메인<span>울트라 와이드</span><br>망원</p>
+          <p>초고해상도 사진</p>
+          <p>(24MP 및 48MP)</p>
+          <p>초점 및 심도 제어 기능을 지원하는<br>한 차원 높은 인물 사진</p>
+        </div>
+        <div class="ph-item">
+          <sup>최대</sup>
+          <h3>10배</h3>
+          <p>광학 줌 범위</p>
+        </div>
+        <div class="ph-item">
+          <img src="../css/iphone/icon_sos__d13do2p9n7qu_large.png">
+          <p>긴급 구조 요청</p>
+          <p>충돌 감지</p>
+        </div>
+        <div class="ph-item">
+          <img src="../css/iphone/icon_battery__wqowcbwj50y2_large.png">
+          <p>최대 29시간<br>동영상 재생</p>
+        </div>
+        <div class="ph-item">
+          <img src="../css/iphone/icon_usbc__dpqakxk8o94y_large.png">
+          <p>USB-C</p>
+          <p>최대 20배 빠른 전송 속도를 갖춘<br>USB 3 지원</p>
+        </div>
+        <div class="ph-item lastp">
+          <img src="../css/iphone/icon_face_id__eyzciiwkc5oy_large.png">
+          <p>Face ID</p>
+        </div>
+      </div>
+      <div class="detail-conts">
+        <div class="ph-item pop" style="border-bottom: 1px solid #d2d2d7 ;padding-bottom: 25px;">
+          <img src="../css/iphone/compare_iphone_15__cp3codzoxms2_large.png"><br>
+          <img src="../css/iphone/swatch_iphone_15__dt2j59fau9ua_large.png">
+          <p class="new">New</p>
+          <div class="ph-content">
+            <img class="logop" src="../css/iphone/logo_iphone_15__cg1a25guu51e_large.png"><br>
+            <p style="font-size: 15px;">막강한 성능.</p>
+            <br>
+            <span>₩1,250,000부터</span>
+            <div class="sell-group bb">
+              <button type="button">구입하기</button>
+              <a style="color: #2997ff; cursor: pointer; margin: 15px 0; font-size: 12px;">더 알아보기 ></a>
+            </div>
+          </div>
+        </div>
+        <div class="ph-item">
+          <h4>17.0cm 또는 15.5cm</h4>
+          <p>Super Retina XDR 디스플레이</p>
+          <p>-</p>
+          <p>-</p>
+        </div>
+        <div class="ph-item">
+          <img src="../css/iphone/icon_design__bbi8qdcsnygy_large.png">
+          <p>알류미늄 및 컬러 인퓨즈<br>글래스 소재 후면</p>
+          <p>벨소리/무음 스위치</p>
+        </div>
+        <div class="ph-item">
+          <img src="../css/iphone/icon_dynamic_island__d9d7y565nzsm_large.png">
+          <p>Dynamic Island</p>
+          <p>iPhone을 다루는<br>신박한 방법</p>
+        </div>
+        <div class="ph-item">
+          <img src="../css/iphone/icon_a16__fjqclpv24fma_large.png">
+          <p>A16 Bionic 칩<br>5코어 GPU 탑재</p>
+        </div>
+        <div class="ph-item">
+          <img src="../css/iphone/icon_14_camera__e6tkwcfw12wm_large.png">
+          <p>첨단 듀얼 카메라 시스템</p>
+          <p>48MP 메인<span>울트라 와이드</span><br><br></p>
+          <p>초고해상도 사진</p>
+          <p>(24MP 및 48MP)</p>
+          <p>초점 및 심도 제어 기능을 지원하는<br>한 차원 높은 인물 사진</p>
+        </div>
+        <div class="ph-item">
+          <sup></sup>
+          <h3>4배</h3>
+          <p>광학 줌 범위</p>
+        </div>
+        <div class="ph-item">
+          <img src="../css/iphone/icon_sos__d13do2p9n7qu_large.png">
+          <p>긴급 구조 요청</p>
+          <p>충돌 감지</p>
+        </div>
+        <div class="ph-item">
+          <img src="../css/iphone/icon_battery__wqowcbwj50y2_large.png">
+          <p>최대 26시간<br>동영상 재생</p>
+        </div>
+        <div class="ph-item">
+          <img src="../css/iphone/icon_usbc__dpqakxk8o94y_large.png">
+          <p>USB-C</p>
+          <p>USB 2 지원<br><br></p>
+        </div>
+        <div class="ph-item lastp">
+          <img src="../css/iphone/icon_face_id__eyzciiwkc5oy_large.png">
+          <p>Face ID</p>
+        </div>
+      </div>
+      <div class="detail-conts">
+        <div class="ph-item pop" style="border-bottom: 1px solid #d2d2d7; padding-bottom: 25px;">
+          <img src="../css/iphone/compare_iphone_14__ct4sjk962pea_large.png"><br>
+          <img src="../css/iphone/swatch_iphone_14__eatap63qk6wm_large.png">
+          <br>
+          <div class="ph-content" style="margin-top: 5px;">
+            <img class="logop" src="../css/iphone/logo_iphone_14__beagfaob98eq_large.png"><br>
+            <p style="font-size: 15px;">여전한 놀라움.</p>
+            <br>
+            <span>₩1,090,000부터</span>
+            <div class="sell-group bb">
+              <button type="button">구입하기</button>
+              <a style="color: #2997ff; cursor: pointer; margin: 15px 0; font-size: 12px;">더 알아보기 ></a>
+            </div>
+          </div>
+        </div>
+        <div class="ph-item">
+          <h4>17.0cm 또는 15.4cm</h4>
+          <p>Super Retina XDR 디스플레이</p>
+          <p>-</p>
+          <p>-</p>
+        </div>
+        <div class="ph-item">
+          <img src="../css/iphone/icon_design__bbi8qdcsnygy_large.png">
+          <p>알류미늄 및<br>글래스 소재 후면</p>
+          <p>벨소리/무음 스위치</p>
+        </div>
+        <div class="ph-item tt" style="min-height: 129px;">
+
+          <p>-</p>
+
+        </div>
+        <div class="ph-item">
+          <img src="../css/iphone/icon_a15__gde9u4vunqqa_large.png">
+          <p>A15 Bionic 칩<br>5코어 GPU 탑재</p>
+        </div>
+        <div class="ph-item">
+          <img src="../css/iphone/icon_14_camera__e6tkwcfw12wm_large.png">
+          <p>듀얼 카메라 시스템</p>
+          <p>12MP 메인<span>울트라 와이드</span><br><br></p>
+          <p><br></p>
+          <p>-</p>
+          <p>초점 및 심도 제어 기능을 지원하는<br>한 차원 높은 인물 사진</p>
+        </div>
+        <div class="ph-item">
+          <sup></sup>
+          <h3>2배</h3>
+          <p>광학 줌 범위</p>
+        </div>
+        <div class="ph-item">
+          <img src="../css/iphone/icon_sos__d13do2p9n7qu_large.png">
+          <p>긴급 구조 요청</p>
+          <p>충돌 감지</p>
+        </div>
+        <div class="ph-item">
+          <img src="../css/iphone/icon_battery__wqowcbwj50y2_large.png">
+          <p>최대 26시간<br>동영상 재생</p>
+        </div>
+        <div class="ph-item">
+          <img src="../css/iphone/icon_lightning__qkwlyw9y636i_large.png">
+          <p>Lightning</p>
+          <p>USB 2 지원<br><br></p>
+        </div>
+        <div class="ph-item lastp">
+          <img src="../css/iphone/icon_face_id__eyzciiwkc5oy_large.png">
+          <p>Face ID</p>
+        </div>
+      </div>
+      <div class="detail-conts">
+        <div class="ph-item pop" style="width: 180px; border-bottom: 1px solid #d2d2d7; padding-bottom: 25px;">
+          <img src="../css/iphone/compare_iphone_se__d5blqx1pgymq_large.png"><br>
+          <img src="../css/iphone/swatch_iphone_se__bygc73yqw22u_large.png">
+          <br>
+          <div class="ph-content" style="margin-top: 2.5px;">
+            <img class="logop" src="../css/iphone/logo_iphone_se__m265le0wq0q6_large.png"><br>
+            <p style="font-size: 15px;">파워도 제대로.<br>실속도 제대로.</p>
+            <span>₩650,000부터</span>
+            <div class="sell-group bb">
+              <button type="button">구입하기</button>
+              <a style="color: #2997ff; cursor: pointer; margin: 15px 0; font-size: 12px;">더 알아보기 ></a>
+            </div>
+          </div>
+        </div>
+        <div class="ph-item">
+          <h4>11.9cm</h4>
+          <p>Retina HD 디스플레이</p>
+          <p>-</p>
+          <p>-</p>
+        </div>
+        <div class="ph-item">
+          <img src="../css/iphone/icon_design__bbi8qdcsnygy_large.png">
+          <p>알류미늄 및<br>글래스</p>
+          <p>벨소리/무음 스위치</p>
+        </div>
+        <div class="ph-item tt" style="min-height: 129px;">
+          <p>-</p>
+        </div>
+        <div class="ph-item">
+          <img src="../css/iphone/icon_a15__gde9u4vunqqa_large.png">
+          <p>A15 Bionic 칩<br>4코어 GPU 탑재</p>
+        </div>
+        <div class="ph-item">
+          <img src="../css/iphone/icon_se_camera__cs1t6sujjdiu_large.png">
+          <p>싱글 카메라 시스템</p>
+          <p>12MP 메인<span></span><br><br></p>
+          <p><br></p>
+          <p>-</p>
+          <p>심도 제어 기능을 지원하는<br>인물 사진 모드</p>
+        </div>
+        <div class="ph-item">
+          <sup></sup>
+          <h3>1배</h3>
+          <p>광학 줌 범위</p>
+        </div>
+        <div class="ph-item">
+          <img src="../css/iphone/icon_sos__d13do2p9n7qu_large.png">
+          <p>긴급 구조 요청</p>
+          <p>충돌 감지</p>
+        </div>
+        <div class="ph-item">
+          <img src="../css/iphone/icon_battery__wqowcbwj50y2_large.png">
+          <p>최대 15시간<br>동영상 재생</p>
+        </div>
+        <div class="ph-item">
+          <img src="../css/iphone/icon_lightning__qkwlyw9y636i_large.png">
+          <p>Lightning</p>
+          <p>USB 2 지원<br><br></p>
+        </div>
+        <div class="ph-item lastp">
+          <img src="../css/iphone/icon_touch_id__etlcbgeryay6_large.png">
+          <p>Touch ID</p>
+        </div>
+      </div>
+    </div>
+    <div class="linked">
+      <a>모든 iPhone모델 비교하기 ></a><a class="ll">iPhone 쇼핑하기 ></a>
+    </div>
+  </section>
+  <section id="sect">
+    <div class="bal-wrap">
+      <div class="bal">
+        <div class="val24">
+          <div class="val-con">
+            <h2 style="line-height: 1.5;">이번 밸런타인데이<br>보다 달달하게.</h2>
+            <a>선물 쇼핑하기 ></a>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+  <section id="buyse">
+    <div class="buycon">
+      <h2 style="margin-bottom: 70px; margin-top: 0;">iPhone을 구입하는 방법</h2>
+      <div class="container1">
+        <div class="boxs">
+          <div class="blef content-wraper">
+            <div class="lcont">
+              <h3>iPhone 11 이상의 모델을<br>보상판매하면<br>220,000원~970,000d원<br>상당의 크레딧을 받을 수 있습니다.</h3>
+              <a>쓰던 기기의 가치 확인하기 ></a>
+            </div>
+            <div class="fst"></div>
+          </div>
+        </div>
+        <div class="boxs">
+          <div class="brig content-wraper riff">
+            <div class="rcont">
+              <h3>자신에게 알맞은 결제 옵션</h3>
+              <p>맘에 드는 Apple 제품을 신용 카드 할부로<br>구입하세요. 할부 서비스를 제공하는 신용<br>카드로 최대 12개월 할부로 결제하세요.</p>
+              <a>더 알아보기 ></a>
+            </div>
+            <div class="snd"></div>
+          </div>
+        </div>
+        <div class="boxb">
+          <div class="eend">
+            <div class="eend-con">
+              <h3 style="font-size: 35px; margin-bottom: 20px;">iPhone, Apple에서 사면<br>가장 좋은 이유.</h3>
+              <p style="font-size: 18px; line-height: 1.8;">자신에게 맞는 결제 옵션 선택은 물론, 보상 판매를 통해<br>더 저렴한 가격에 살 수 있고, 구매한 새 iPhone의 설정도<br>신속하게 할 수 있습니다. 게다가 채팅 상담을 통해<br>궁금증을 풀어줄 스페셜리스트도 기다리고 있답니다.</p>
+              <a style="font-size: 18px;">더 알아보기 ></a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+    <div class="sear">
+      <h2 style="font-size: 48px; font-weight: 600; margin-bottom: 80px;">추천 액세서리</h2>
+      <div class="sear-item">
+        <div class="sear-flex">
+          <div class="update">
+            <div class="sea boxs2">
+              <div class="se-wrap">
+                <h2>MagSafe</h2>
+                <p>마그네틱 케이스나 카드지갑을 착.<br>혹은 한꺼번에 둘 다 착. 무선 충전도<br>빠르고 효율적으로.</p>
+                <a>MagSafe 액세서리 쇼핑하기 ></a>
+              </div>
+            </div>
+            <div class="boxs2">
+              <div class="posts"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="sear-item" style="margin-top: 10px;">
+        <div class="sear-flex">
+          <div class="update row3">
+            <div class="boxs2">
+              <div class="posts2"></div>
+            </div>
+            <div class="sea boxs2" style="padding-top: 0;">
+              <div class="se-wrap" >
+                <h2>AirTag</h2>
+                <p>하나는 열쇠에, 또 하나는 백팩에. 어디 두었는지<br>기억이 나지 않을 땐, 간편하게 ‘나의 찾기’ 앱을<br>활용해 보세요.</p>
+                <a>구입하기 ></a><a href="" style="margin-left: 20px;">더 알아보기 ></a>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+      <div class="sear-item se-end" style="margin-top: 10px;">
+        <div class="sear-flex" style="margin-bottom: 10px;">
+          <div class="update row3">
+            <div class="boxs3">
+              <div class="se2-wrap">
+                <h3>매혹의 유전자.</h3>
+                <p>다양한 AirPods 모델 살펴보고<br>가장 취향에 맞는 것 고르기.</p>
+                <a>더 알아보기 ></a>
+              </div>
+            </div>
+            <div class="boxs4">
+              <div class="posts3"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="sear-all">
+        <a>iPhone 액세서리 모두 보기 ></a>
+      </div>
+    </div>
+    <div>
+
+    </div>
+
+  </section>
+  <section id="bot-ba">
+    <div class="buystr">
+      <div class="bu-wrap">
+        <div class="flex-wrapb">
+          <div class="buy-title">
+            <div class="b-icon1">
+            </div>
+            <h2>업무일 기준 무료 익일 배송</h2>
+            <p>오후 3시 이전에 주문된 재고 보유<br>제품에 한합니다.</p>
+            <a>더 알아보기 ></a>
+          </div>
+          <div class="buy-title">
+            <div class="b-icon2">
+            </div>
+            <h2>할부방식</h2>
+            <p>무이자 할부를 통해 Apple 제품을<br>부담 없이 구매하실 수 있습니다.</p>
+            <a>더 알아보기 ></a>
+          </div>
+          <div class="buy-title">
+            <div class="b-icon3">
+            </div>
+            <h2>업무일 기준 무료 익일 배송</h2>
+            <p>질문이 있으신가요? 전문가와 전화로<br>상담하거나 온라인으로 채팅하세요.<br>080-330-8877로 전화 주세요.</p>
+            <a>문의하기 ></a>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+  </section>
+  <section id="anything">
+    <h2 style="font-size: 52px; font-weight: 600; margin-bottom: 70px;">iPhone을 iPhone답게 만드는 모든 것.</h2>
+    <div class="sear-item">
+      <div class="any-item">
+        <div class="cont-wrap2">
+          <div class="any-cont">
+            <div class="nano">
+              <h2 style="margin-top: 0px; font-size: 45px;">iOS 17</h2>
+              <p style="font-size: 18px;">매일매일이 더욱 특별하게.</p>
+              <a>더 알아보기 ></a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="any-left">
+        <div class="backgrd-wrap">
+          <div class="cont-wrap">
+            <div class="nano">
+              <h2>iPhone으로 갈아타기,<br>
+                무척 쉽습니다.</h2>
+              <a >더 알아보기 ></a>
+            </div>
+          </div>
+          <div class="img-wrap1">
+            <div class="any-img1"></div>
+          </div>
+        </div>
+      </div>
+      <div class="any-right">
+        <div class="backgrd-wrap2">
+          <figure class="any-img2"></figure>
+          <div class="cont-wrap2">
+            <div class="nano">
+              <h2>개인정보 보호.<br>
+                Apple이니까.</h2>
+              <a>더 알아보기 ></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section id="anything">
+    <h2 style="font-size: 52px; font-weight: 600; margin-bottom: 70px;">iPhone을 더욱더 잘 활용하는 법.</h2>
+    <div class="sear-item">
+      <div class="cont-wrap3">
+        <div class="title-cont">
+          <div class="one-img">
+            <figure class="one-ig"></figure>
+          </div>
+          <div class="one-wrap">
+            <div class="one-wrap2">
+              <h2 class="one-text"></h2>
+              <p>4가지 Apple 서비스를<br>
+                하나의 요금으로 부담 없이.
+              </p>
+              <div class="one-link">
+                <a>무료 체험하기</a>
+                <a style="margin-left: 10px;">더 알아보기 ></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="sear-item">
+      <div class="cont-wrap3">
+        <div class="todo-cont">
+          <div class="todo-text">
+            <h3 class="todo-logo"></h3>
+            <p style="font-size: 18px; line-height: 2; color: #fff;">iPhone을 구입하면<br>
+              Apple TV+가 3개월 무료.10
+            </p>
+            <div class="one-link">
+              <a>무료 체험하기</a>
+              <a style="margin-left: 10px;">더 알아보기 ></a>
+            </div>
+          </div>
+          <div class="slide-bar">
+            <div class="slid-btn">
+              <div class="s-btn2">
+
+                <img src="../css/iphone/play_icon__c3e8rw3c7h2e_large.svg" id="btn" style="cursor: pointer;">
+
+              </div>
+            </div>
+            <div class="slide-wrap">
+              <ul>
+                <li style="background-image: url(../css/iphone/342x192.jpg);" aria-hidden="true"><a>
+                  <h4 aria-hidden="true">
+                    <span>지금 시청하기</span>
+                  </h4>
+                </a></li>
+                <li style="background-image: url(../css/iphone/342x1921.jpg);" aria-hidden="true"><a>
+                  <h4 aria-hidden="true">
+                    <span>지금 시청하기</span>
+                  </h4>
+                </a></li>
+                <li style="background-image: url(../css/iphone/342x1922.jpg);" aria-hidden="true"><a>
+                  <h4 aria-hidden="true">
+                    <span>지금 시청하기</span>
+                  </h4>
+                </a></li>
+                <li style="background-image: url(../css/iphone/342x1923.jpg);" aria-hidden="true"><a>
+                  <h4 aria-hidden="true">
+                    <span>지금 시청하기</span>
+                  </h4>
+                </a></li>
+                <li style="background-image: url(../css/iphone/342x1924.jpg);" aria-hidden="true"><a>
+                  <h4 aria-hidden="true">
+                    <span>지금 시청하기</span>
+                  </h4>
+                </a></li>
+                <li style="background-image: url(../css/iphone/342x1925.jpg);" aria-hidden="true"><a>
+                  <h4 aria-hidden="true">
+                    <span>지금 시청하기</span>
+                  </h4>
+                </a></li>
+                <li style="background-image: url(../css/iphone/342x1926.jpg);" aria-hidden="true"><a>
+                  <h4 aria-hidden="true">
+                    <span>지금 시청하기</span>
+                  </h4>
+                </a></li>
+                <li style="background-image: url(../css/iphone/342x1927.jpg);" aria-hidden="true"><a>
+                  <h4 aria-hidden="true">
+                    <span>지금 시청하기</span>
+                  </h4>
+                </a></li>
+                <li style="background-image: url(../css/iphone/342x1928.jpg);" aria-hidden="true"><a>
+                  <h4 aria-hidden="true">
+                    <span>지금 시청하기</span>
+                  </h4>
+                </a></li>
+                <li style="background-image: url(../css/iphone/342x1929.jpg);" aria-hidden="true"><a>
+                  <h4 aria-hidden="true">
+                    <span>지금 시청하기</span>
+                  </h4>
+                </a></li>
+                <li style="background-image: url(../css/iphone/342x19210.jpg);" aria-hidden="true"><a>
+                  <h4 aria-hidden="true">
+                    <span>지금 시청하기</span>
+                  </h4>
+                </a></li>
+                <li style="background-image: url(../css/iphone/342x19211.jpg);" aria-hidden="true"><a>
+                  <h4 aria-hidden="true">
+                    <span>지금 시청하기</span>
+                  </h4>
+                </a></li>
+                <li style="background-image: url(../css/iphone/342x19212.jpg);" aria-hidden="true"><a>
+                  <h4 aria-hidden="true">
+                    <span>지금 시청하기</span>
+                  </h4>
+                </a></li>
+                <li style="background-image: url(../css/iphone/342x19213.jpg);" aria-hidden="true"><a>
+                  <h4 aria-hidden="true">
+                    <span>지금 시청하기</span>
+                  </h4>
+                </a></li>
+                <li style="background-image: url(../css/iphone/342x19214.jpg);" aria-hidden="true"><a>
+                  <h4 aria-hidden="true">
+                    <span>지금 시청하기</span>
+                  </h4>
+                </a></li>
+                <li style="background-image: url(../css/iphone/342x19215.jpg);" aria-hidden="true"><a>
+                  <h4 aria-hidden="true">
+                    <span>지금 시청하기</span>
+                  </h4>
+                </a></li>
+                <li style="background-image: url(../css/iphone/342x19216.jpg);" aria-hidden="true"><a>
+                  <h4 aria-hidden="true">
+                    <span>지금 시청하기</span>
+                  </h4>
+                </a></li>
+                <li style="background-image: url(../css/iphone/342x19217.jpg);" aria-hidden="true"><a>
+                  <h4 aria-hidden="true">
+                    <span>지금 시청하기</span>
+                  </h4>
+                </a></li>
+                <li style="background-image: url(../css/iphone/342x192.jpg);" aria-hidden="true"><a>
+                  <h4 aria-hidden="true">
+                    <span>지금 시청하기</span>
+                  </h4>
+                </a></li>
+                <li style="background-image: url(../css/iphone/342x1921.jpg);" aria-hidden="true"><a>
+                  <h4 aria-hidden="true">
+                    <span>지금 시청하기</span>
+                  </h4>
+                </a></li>
+                <li style="background-image: url(../css/iphone/342x1922.jpg);" aria-hidden="true"><a>
+                  <h4 aria-hidden="true">
+                    <span>지금 시청하기</span>
+                  </h4>
+                </a></li>
+                <li style="background-image: url(../css/iphone/342x1923.jpg);" aria-hidden="true"><a>
+                  <h4 aria-hidden="true">
+                    <span>지금 시청하기</span>
+                  </h4>
+                </a></li>
+                <li style="background-image: url(../css/iphone/342x1924.jpg);" aria-hidden="true"><a>
+                  <h4 aria-hidden="true">
+                    <span>지금 시청하기</span>
+                  </h4>
+                </a></li>
+                <li style="background-image: url(../css/iphone/342x1925.jpg);" aria-hidden="true"><a>
+                  <h4 aria-hidden="true">
+                    <span>지금 시청하기</span>
+                  </h4>
+                </a></li>
+                <li style="background-image: url(../css/iphone/342x1926.jpg);" aria-hidden="true"><a>
+                  <h4 aria-hidden="true">
+                    <span>지금 시청하기</span>
+                  </h4>
+                </a></li>
+                <li style="background-image: url(../css/iphone/342x1927.jpg);" aria-hidden="true"><a>
+                  <h4 aria-hidden="true">
+                    <span>지금 시청하기</span>
+                  </h4>
+                </a></li>
+                <li style="background-image: url(../css/iphone/342x1928.jpg);" aria-hidden="true"><a>
+                  <h4 aria-hidden="true">
+                    <span>지금 시청하기</span>
+                  </h4>
+                </a></li>
+                <li style="background-image: url(../css/iphone/342x1929.jpg);" aria-hidden="true"><a>
+                  <h4 aria-hidden="true">
+                    <span>지금 시청하기</span>
+                  </h4>
+                </a></li>
+                <li style="background-image: url(../css/iphone/342x19210.jpg);" aria-hidden="true"><a>
+                  <h4 aria-hidden="true">
+                    <span>지금 시청하기</span>
+                  </h4>
+                </a></li>
+                <li style="background-image: url(../css/iphone/342x19211.jpg);" aria-hidden="true"><a>
+                  <h4 aria-hidden="true">
+                    <span>지금 시청하기</span>
+                  </h4>
+                </a></li>
+                <li style="background-image: url(../css/iphone/342x19212.jpg);" aria-hidden="true"><a>
+                  <h4 aria-hidden="true">
+                    <span>지금 시청하기</span>
+                  </h4>
+                </a></li>
+                <li style="background-image: url(../css/iphone/342x19213.jpg);" aria-hidden="true"><a>
+                  <h4 aria-hidden="true">
+                    <span>지금 시청하기</span>
+                  </h4>
+                </a></li>
+                <li style="background-image: url(../css/iphone/342x19214.jpg);" aria-hidden="true"><a>
+                  <h4 aria-hidden="true">
+                    <span>지금 시청하기</span>
+                  </h4>
+                </a></li>
+                <li style="background-image: url(../css/iphone/342x19215.jpg);" aria-hidden="true"><a>
+                  <h4 aria-hidden="true">
+                    <span>지금 시청하기</span>
+                  </h4>
+                </a></li>
+                <li style="background-image: url(../css/iphone/342x19216.jpg);" aria-hidden="true"><a>
+                  <h4 aria-hidden="true">
+                    <span>지금 시청하기</span>
+                  </h4>
+                </a></li>
+                <li style="background-image: url(../css/iphone/342x19217.jpg);" aria-hidden="true"><a>
+                  <h4 aria-hidden="true">
+                    <span>지금 시청하기</span>
+                  </h4>
+                </a></li>
+                <li style="background-image: url(../css/iphone/342x192.jpg);" aria-hidden="true"><a>
+                  <h4 aria-hidden="true">
+                    <span>지금 시청하기</span>
+                  </h4>
+                </a></li>
+                <li style="background-image: url(../css/iphone/342x1921.jpg);" aria-hidden="true"><a>
+                  <h4 aria-hidden="true">
+                    <span>지금 시청하기</span>
+                  </h4>
+                </a></li>
+                <li style="background-image: url(../css/iphone/342x1922.jpg);" aria-hidden="true"><a>
+                  <h4 aria-hidden="true">
+                    <span>지금 시청하기</span>
+                  </h4>
+                </a></li>
+                <li style="background-image: url(../css/iphone/342x1923.jpg);" aria-hidden="true"><a>
+                  <h4 aria-hidden="true">
+                    <span>지금 시청하기</span>
+                  </h4>
+                </a></li>
+                <li style="background-image: url(../css/iphone/342x1924.jpg);" aria-hidden="true"><a>
+                  <h4 aria-hidden="true">
+                    <span>지금 시청하기</span>
+                  </h4>
+                </a></li>
+                <li style="background-image: url(../css/iphone/342x1925.jpg);" aria-hidden="true"><a>
+                  <h4 aria-hidden="true">
+                    <span>지금 시청하기</span>
+                  </h4>
+                </a></li>
+                <li style="background-image: url(../css/iphone/342x1926.jpg);" aria-hidden="true"><a>
+                  <h4 aria-hidden="true">
+                    <span>지금 시청하기</span>
+                  </h4>
+                </a></li>
+                <li style="background-image: url(../css/iphone/342x1927.jpg);" aria-hidden="true"><a>
+                  <h4 aria-hidden="true">
+                    <span>지금 시청하기</span>
+                  </h4>
+                </a></li>
+                <li style="background-image: url(../css/iphone/342x1928.jpg);" aria-hidden="true"><a>
+                  <h4 aria-hidden="true">
+                    <span>지금 시청하기</span>
+                  </h4>
+                </a></li>
+                <li style="background-image: url(../css/iphone/342x1929.jpg);" aria-hidden="true"><a>
+                  <h4 aria-hidden="true">
+                    <span>지금 시청하기</span>
+                  </h4>
+                </a></li>
+                <li style="background-image: url(../css/iphone/342x19210.jpg);" aria-hidden="true"><a>
+                  <h4 aria-hidden="true">
+                    <span>지금 시청하기</span>
+                  </h4>
+                </a></li>
+                <li style="background-image: url(../css/iphone/342x19211.jpg);" aria-hidden="true"><a>
+                  <h4 aria-hidden="true">
+                    <span>지금 시청하기</span>
+                  </h4>
+                </a></li>
+                <li style="background-image: url(../css/iphone/342x19212.jpg);" aria-hidden="true"><a>
+                  <h4 aria-hidden="true">
+                    <span>지금 시청하기</span>
+                  </h4>
+                </a></li>
+                <li style="background-image: url(../css/iphone/342x19213.jpg);" aria-hidden="true"><a>
+                  <h4 aria-hidden="true">
+                    <span>지금 시청하기</span>
+                  </h4>
+                </a></li>
+                <li style="background-image: url(../css/iphone/342x19214.jpg);" aria-hidden="true"><a>
+                  <h4 aria-hidden="true">
+                    <span>지금 시청하기</span>
+                  </h4>
+                </a></li>
+                <li style="background-image: url(../css/iphone/342x19215.jpg);" aria-hidden="true"><a>
+                  <h4 aria-hidden="true">
+                    <span>지금 시청하기</span>
+                  </h4>
+                </a></li>
+                <li style="background-image: url(../css/iphone/342x19216.jpg);" aria-hidden="true"><a>
+                  <h4 aria-hidden="true">
+                    <span>지금 시청하기</span>
+                  </h4>
+                </a></li>
+                <li style="background-image: url(../css/iphone/342x19217.jpg);" aria-hidden="true"><a>
+                  <h4 aria-hidden="true">
+                    <span>지금 시청하기</span>
+                  </h4>
+                </a></li>
+              </ul>
+            </div>
+            <div class="two-s">
+              <ul>
+                <li style="background-image: url(../css/iphone/476x267.jpg);" aria-hidden="true"><a>
+                  <h4 aria-hidden="true">
+                    <span>지금 시청하기</span>
+                  </h4>
+                </a></li>
+                <li style="background-image: url(../css/iphone/476x267\ \(1\).jpg);" aria-hidden="true"><a>
+                  <h4 aria-hidden="true">
+                    <span>지금 시청하기</span>
+                  </h4>
+                </a></li>
+                <li style="background-image: url(../css/iphone/476x267\ \(2\).jpg);" aria-hidden="true"><a>
+                  <h4 aria-hidden="true">
+                    <span>지금 시청하기</span>
+                  </h4>
+                </a></li>
+                <li style="background-image: url(../css/iphone/476x267\ \(3\).jpg);" aria-hidden="true"><a>
+                  <h4 aria-hidden="true">
+                    <span>지금 시청하기</span>
+                  </h4>
+                </a></li>
+                <li style="background-image: url(../css/iphone/476x267\ \(4\).jpg);" aria-hidden="true"><a>
+                  <h4 aria-hidden="true">
+                    <span>지금 시청하기</span>
+                  </h4>
+                </a></li>
+                <li style="background-image: url(../css/iphone/476x267\ \(5\).jpg);" aria-hidden="true"><a>
+                  <h4 aria-hidden="true">
+                    <span>지금 시청하기</span>
+                  </h4>
+                </a></li>
+                <li style="background-image: url(../css/iphone/476x267\ \(6\).jpg);" aria-hidden="true"><a>
+                  <h4 aria-hidden="true">
+                    <span>지금 시청하기</span>
+                  </h4>
+                </a></li>
+                <li style="background-image: url(../css/iphone/476x267\ \(7\).jpg);" aria-hidden="true"><a>
+                  <h4 aria-hidden="true">
+                    <span>지금 시청하기</span>
+                  </h4>
+                </a></li>
+                <li style="background-image: url(../css/iphone/476x267\ \(8\).jpg);" aria-hidden="true"><a>
+                  <h4 aria-hidden="true">
+                    <span>지금 시청하기</span>
+                  </h4>
+                </a></li>
+                <li style="background-image: url(../css/iphone/476x267\ \(9\).jpg);" aria-hidden="true"><a>
+                  <h4 aria-hidden="true">
+                    <span>지금 시청하기</span>
+                  </h4>
+                </a></li>
+                <li style="background-image: url(../css/iphone/476x267\ \(10\).jpg);" aria-hidden="true"><a>
+                  <h4 aria-hidden="true">
+                    <span>지금 시청하기</span>
+                  </h4>
+                </a></li>
+                <li style="background-image: url(../css/iphone/476x267\ \(11\).jpg);" aria-hidden="true"><a>
+                  <h4 aria-hidden="true">
+                    <span>지금 시청하기</span>
+                  </h4>
+                </a></li>
+                <li style="background-image: url(../css/iphone/476x267\ \(12\).jpg);" aria-hidden="true"><a>
+                  <h4 aria-hidden="true">
+                    <span>지금 시청하기</span>
+                  </h4>
+                </a></li>
+                <li style="background-image: url(../css/iphone/476x267\ \(13\).jpg);" aria-hidden="true"><a>
+                  <h4 aria-hidden="true">
+                    <span>지금 시청하기</span>
+                  </h4>
+                </a></li>
+                <li style="background-image: url(../css/iphone/476x267\ \(14\).jpg);" aria-hidden="true"><a>
+                  <h4 aria-hidden="true">
+                    <span>지금 시청하기</span>
+                  </h4>
+                </a></li>
+                <li style="background-image: url(../css/iphone/476x267\ \(15\).jpg);" aria-hidden="true"><a>
+                  <h4 aria-hidden="true">
+                    <span>지금 시청하기</span>
+                  </h4>
+                </a></li>
+                <li style="background-image: url(../css/iphone/476x267\ \(16\).jpg);" aria-hidden="true"><a>
+                  <h4 aria-hidden="true">
+                    <span>지금 시청하기</span>
+                  </h4>
+                </a></li>
+                <li style="background-image: url(../css/iphone/476x267\ \(17\).jpg);" aria-hidden="true"><a>
+                  <h4 aria-hidden="true">
+                    <span>지금 시청하기</span>
+                  </h4>
+                </a></li>
+                <li style="background-image: url(../css/iphone/476x267.jpg);" aria-hidden="true"><a>
+                  <h4 aria-hidden="true">
+                    <span>지금 시청하기</span>
+                  </h4>
+                </a></li>
+                <li style="background-image: url(../css/iphone/476x267\ \(1\).jpg);" aria-hidden="true"><a>
+                  <h4 aria-hidden="true">
+                    <span>지금 시청하기</span>
+                  </h4>
+                </a></li>
+                <li style="background-image: url(../css/iphone/476x267\ \(2\).jpg);" aria-hidden="true"><a>
+                  <h4 aria-hidden="true">
+                    <span>지금 시청하기</span>
+                  </h4>
+                </a></li>
+                <li style="background-image: url(../css/iphone/476x267\ \(3\).jpg);" aria-hidden="true"><a>
+                  <h4 aria-hidden="true">
+                    <span>지금 시청하기</span>
+                  </h4>
+                </a></li>
+                <li style="background-image: url(../css/iphone/476x267\ \(4\).jpg);" aria-hidden="true"><a>
+                  <h4 aria-hidden="true">
+                    <span>지금 시청하기</span>
+                  </h4>
+                </a></li>
+                <li style="background-image: url(../css/iphone/476x267\ \(5\).jpg);" aria-hidden="true"><a>
+                  <h4 aria-hidden="true">
+                    <span>지금 시청하기</span>
+                  </h4>
+                </a></li>
+                <li style="background-image: url(../css/iphone/476x267\ \(6\).jpg);" aria-hidden="true"><a>
+                  <h4 aria-hidden="true">
+                    <span>지금 시청하기</span>
+                  </h4>
+                </a></li>
+                <li style="background-image: url(../css/iphone/476x267\ \(7\).jpg);" aria-hidden="true"><a>
+                  <h4 aria-hidden="true">
+                    <span>지금 시청하기</span>
+                  </h4>
+                </a></li>
+                <li style="background-image: url(../css/iphone/476x267\ \(8\).jpg);" aria-hidden="true"><a>
+                  <h4 aria-hidden="true">
+                    <span>지금 시청하기</span>
+                  </h4>
+                </a></li>
+                <li style="background-image: url(../css/iphone/476x267\ \(9\).jpg);" aria-hidden="true"><a>
+                  <h4 aria-hidden="true">
+                    <span>지금 시청하기</span>
+                  </h4>
+                </a></li>
+                <li style="background-image: url(../css/iphone/476x267\ \(10\).jpg);" aria-hidden="true"><a>
+                  <h4 aria-hidden="true">
+                    <span>지금 시청하기</span>
+                  </h4>
+                </a></li>
+                <li style="background-image: url(../css/iphone/476x267\ \(11\).jpg);" aria-hidden="true"><a>
+                  <h4 aria-hidden="true">
+                    <span>지금 시청하기</span>
+                  </h4>
+                </a></li>
+                <li style="background-image: url(../css/iphone/476x267\ \(12\).jpg);" aria-hidden="true"><a>
+                  <h4 aria-hidden="true">
+                    <span>지금 시청하기</span>
+                  </h4>
+                </a></li>
+                <li style="background-image: url(../css/iphone/476x267\ \(13\).jpg);" aria-hidden="true"><a>
+                  <h4 aria-hidden="true">
+                    <span>지금 시청하기</span>
+                  </h4>
+                </a></li>
+                <li style="background-image: url(../css/iphone/476x267\ \(14\).jpg);" aria-hidden="true"><a>
+                  <h4 aria-hidden="true">
+                    <span>지금 시청하기</span>
+                  </h4>
+                </a></li>
+                <li style="background-image: url(../css/iphone/476x267\ \(15\).jpg);" aria-hidden="true"><a>
+                  <h4 aria-hidden="true">
+                    <span>지금 시청하기</span>
+                  </h4>
+                </a></li>
+                <li style="background-image: url(../css/iphone/476x267\ \(16\).jpg);" aria-hidden="true"><a>
+                  <h4 aria-hidden="true">
+                    <span>지금 시청하기</span>
+                  </h4>
+                </a></li>
+                <li style="background-image: url(../css/iphone/342x192\ \(17\).jpg);" aria-hidden="true"><a>
+                  <h4 aria-hidden="true">
+                    <span>지금 시청하기</span>
+                  </h4>
+                </a></li>
+                <li style="background-image: url(../css/iphone/476x267.jpg);" aria-hidden="true"><a>
+                  <h4 aria-hidden="true">
+                    <span>지금 시청하기</span>
+                  </h4>
+                </a></li>
+                <li style="background-image: url(../css/iphone/476x267\ \(1\).jpg);" aria-hidden="true"><a>
+                  <h4 aria-hidden="true">
+                    <span>지금 시청하기</span>
+                  </h4>
+                </a></li>
+                <li style="background-image: url(../css/iphone/476x267\ \(2\).jpg);" aria-hidden="true"><a>
+                  <h4 aria-hidden="true">
+                    <span>지금 시청하기</span>
+                  </h4>
+                </a></li>
+                <li style="background-image: url(../css/iphone/476x267\ \(3\).jpg);" aria-hidden="true"><a>
+                  <h4 aria-hidden="true">
+                    <span>지금 시청하기</span>
+                  </h4>
+                </a></li>
+                <li style="background-image: url(../css/iphone/476x267\ \(4\).jpg);" aria-hidden="true"><a>
+                  <h4 aria-hidden="true">
+                    <span>지금 시청하기</span>
+                  </h4>
+                </a></li>
+                <li style="background-image: url(../css/iphone/476x267\ \(5\).jpg);" aria-hidden="true"><a>
+                  <h4 aria-hidden="true">
+                    <span>지금 시청하기</span>
+                  </h4>
+                </a></li>
+                <li style="background-image: url(../css/iphone/476x267\ \(6\).jpg);" aria-hidden="true"><a>
+                  <h4 aria-hidden="true">
+                    <span>지금 시청하기</span>
+                  </h4>
+                </a></li>
+                <li style="background-image: url(../css/iphone/476x267\ \(7\).jpg);" aria-hidden="true"><a>
+                  <h4 aria-hidden="true">
+                    <span>지금 시청하기</span>
+                  </h4>
+                </a></li>
+                <li style="background-image: url(../css/iphone/476x267\ \(8\).jpg);" aria-hidden="true"><a>
+                  <h4 aria-hidden="true">
+                    <span>지금 시청하기</span>
+                  </h4>
+                </a></li>
+                <li style="background-image: url(../css/iphone/476x267\ \(9\).jpg);" aria-hidden="true"><a>
+                  <h4 aria-hidden="true">
+                    <span>지금 시청하기</span>
+                  </h4>
+                </a></li>
+                <li style="background-image: url(../css/iphone/476x267\ \(10\).jpg);" aria-hidden="true"><a>
+                  <h4 aria-hidden="true">
+                    <span>지금 시청하기</span>
+                  </h4>
+                </a></li>
+                <li style="background-image: url(../css/iphone/476x267\ \(11\).jpg);" aria-hidden="true"><a>
+                  <h4 aria-hidden="true">
+                    <span>지금 시청하기</span>
+                  </h4>
+                </a></li>
+                <li style="background-image: url(../css/iphone/476x267\ \(12\).jpg);" aria-hidden="true"><a>
+                  <h4 aria-hidden="true">
+                    <span>지금 시청하기</span>
+                  </h4>
+                </a></li>
+                <li style="background-image: url(../css/iphone/476x267\ \(13\).jpg);" aria-hidden="true"><a>
+                  <h4 aria-hidden="true">
+                    <span>지금 시청하기</span>
+                  </h4>
+                </a></li>
+                <li style="background-image: url(../css/iphone/476x267\ \(14\).jpg);" aria-hidden="true"><a>
+                  <h4 aria-hidden="true">
+                    <span>지금 시청하기</span>
+                  </h4>
+                </a></li>
+                <li style="background-image: url(../css/iphone/476x267\ \(15\).jpg);" aria-hidden="true"><a>
+                  <h4 aria-hidden="true">
+                    <span>지금 시청하기</span>
+                  </h4>
+                </a></li>
+                <li style="background-image: url(../css/iphone/476x267\ \(16\).jpg);" aria-hidden="true"><a>
+                  <h4 aria-hidden="true">
+                    <span>지금 시청하기</span>
+                  </h4>
+                </a></li>
+                <li style="background-image: url(../css/iphone/342x192\ \(17\).jpg);" aria-hidden="true"><a>
+                  <h4 aria-hidden="true">
+                    <span>지금 시청하기</span>
+                  </h4>
+                </a></li>
+              </ul>
+            </div>
+          </div>
+
+        </div>
+      </div>
+      <div class="todo-two">
+        <div class="todo-wraper">
+          <div class="todo-back">
+            <div class="todo-text">
+              <h2 ></h2>
+              <p></p>
+              <a></a><a></a>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+    <div class="">
+      <button class="chatbot-toggler">
+        <span class="material-symols-outlined"><img src="../css/info/stev.png" alt=""></span>
+        <span class="material-symols-outlined"><i class="ri-close-line" style="font-size: 23px; font-weight: 600;"></i></span>
+      </button>
+      <div class="chatbot">
+        <header>
+          <img src="../css/info/job.png" alt="">
+          <span class="close-btn material-symols-outlined"><i class="ri-close-line"></i></span>
+        </header>
+        <ul class="chatbox">
+          <li class="chat incoming">
+            <span class="material-symols-outlined"><img src="../css/info/stev.png" alt=""></span>
+            <p>안녕하세요<br>무엇을 도와드릴까요?</p>
+          </li>
+        </ul>
+        <div class="chat-input">
+          <textarea placeholder="메시지를 입력하세요" required></textarea>
+          <span id="send-btn" class="material-symols-outlined ri-arrow-up-circle-fill"></span>
+        </div>
+      </div>
+    </div>
+    <footer>
+      <div class="footer-wrap">
+        <div style="margin-bottom: 5px;">
+          <span>apple 주식회사 · 대표 서명인</span>
+          <span style="margin-left: 30px;">사업자등록번호 : 570-99-7777777 사업자정보확인</span>
+          <span style="margin-left: 30px;">통신판매업 : 제 2021-서울강남C-0093호</span>
+        </div>
+        <div style="margin-bottom: 50px;">
+          <span>사업장 소재지:서울특별시 강남구 테헤란로7길 7 에스코빌딩 6~7층</span>
+          <span>호스팅 서비스 : 네이버 클라우드 ㈜</span>
+        </div>
+        <div class="footer-bot">
+          <span style="font-weight: 600; margin-bottom: 8px;">신한은행 채무지급보증 안내</span>
+          <p>당사는 고객님의 현금 결제 금액에 대해 신한은행과 채무지급보증 계약을 체결하여 안전거래를 보장하고 있습니다.서비스가입 사실 확인</p>
+          <p style="line-height: 1.5; margin-bottom: 0;">크림(주)는 통신판매 중개자로서 통신판매의 당사자가 아닙니다. 본 상품은 개별판매자가 등록한 상품으로 상품, 상품정보, 거래에 관한 의무와 책임은 각 판매자에게 있습니다. 단, 이용약관 및 정책, 기타 거래 체결 과정에서 고지하는 내용 등에 따라 검수하고 보증하는 내용에 대한 책임은 크림(주)에 있습니다.</p>
+        </div>
+        <div class="footer-ad">
+          <span>다양한 쇼핑 방법: Apple Store를 방문하거나, 리셀러를 찾아보거나, 080-330-8877번으로 전화하세요.</span>
+        </div>
+        <div style="margin-top: 10px; padding-bottom: 30px;">
+          <span  style="margin-right: 30px;">Copyright © 2024 Apple Inc. 모든 권리 보유.</span>
+          <span class="sop" >개인정보 처리방침</span>
+          <span class="sop"><a class="last">약관</a></span>
+          <span class="sop" ><a class="last">판매 및 환불</a></span>
+          <span class="sop" ><a class="last">법적고지</a></span>
+          <span class="sop"><a class="last">사이트 맵</a></span>
+        </div>
+      </div>
+    </footer>
+  </div>
+
+
+
+  <script src="../js/bot.js"></script>
+  <script src="../js/bar.js"></script>
+
+<script src="../js/iphone.js"></script>
+
+
+</body>
+</html>

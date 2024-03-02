@@ -1,0 +1,210 @@
+body{width: 100%; background-color: #f5f5f7; position: relative;}
+#header{}
+
+/* 상단 바*/
+
+
+/*iphone main*/
+#top-bar{max-width: 100%; min-height: 100vh; background-color: #fdfdfd;}
+#top-bar .bar-p{padding: 10px 0; display: flex; align-items:start; justify-content: center; width: 100%; height: auto; gap: 2.5vw; background-color: #fbfbfd; animation: fadeIn 0.45s ease-in-out;}
+@keyframes fadeIn{from{opacity: 0; margin-left: 150px;}to{opacity: 1; margin-left: 0;}}
+#top-bar .bar-p a{display: inline-block; cursor: pointer; text-decoration: none; text-align: center;} 
+#top-bar .bar-p a img{margin-bottom: 5px;}
+#top-bar .bar-p a span{display: block; font-size: 11px; color: #333;} 
+.new{font-size: 10px; color: #bf4800;}
+#top-bar .bar-p a:hover span{
+    color: #0066CC;
+    transition: all 0.3s ease-in-out;
+}
+/*2nd bar*/
+#top-bar .snd-bar{background-color: #f5f5f7; width: 100%; padding: 25px 0; text-align: center; margin-top: 0;}
+#top-bar .snd-bar .section-content2 .copy2{font-size: 19px;}
+
+/*iphone 15*/
+#top-bar .snd-iphone15{background-color: #000; text-align: center; display: flex; flex-direction: column; align-items: center; padding-top: 95px; padding-bottom: 95px;}
+#top-bar .snd-iphone15 .tita{max-width: 100%;}
+.p-price{display: block; color: #f2f2f2; font-size: 21px;}
+#top-bar .snd-iphone15 .tita .sell-group{display: flex; flex-direction: column;}
+.iphoneimg{margin-top: 78px; background-image: url(iphone/hero_iphone_15_pro__eqwrvy72748y_large.jpg); background-repeat: no-repeat;  background-size: cover; width: 1079px; height: 282px; position: relative; left: 50%; margin-left: -350.5px; }
+.sell-group{
+    display: flex;
+    justify-content: center;
+    margin-top: 18px;
+    align-items: center;}
+.sell-group button{background-color: #0071e3; border: none; padding: 7px 15px; color: #ffffff; border-radius:17px}
+#top-bar .two{background-color: #ffffff; padding-top: 80px; padding-bottom: 0px; overflow: hidden; margin-bottom: 15px; }
+
+.iphoneimg2{margin-top: 40px; position: relative; background-image: url(iphone/hero_iphone_15__fano21ho6fqu_large.jpg);  background-repeat: no-repeat; background-size: cover; background-position: center; left: 50%; margin-left: -937px; width: 1874px; height: 342px;   }
+
+/*iphone se*/
+.row2{width: 80%; display: flex; flex-wrap: wrap; flex-direction: row; align-items: center; width: 80%; }
+#top-bar .se-section{background-color: #fdfdfd; text-align: center; width: 100%; padding-top: 0;}
+#top-bar .se-section .section-cotent{width: 80%; align-items: center;}
+.se-left{width: 50%; }
+.se-left .bb{flex-direction: column; align-items: center;}
+.se-right{width: 50%; }
+
+.sephoto{background-image: url(iphone/iphone_se_hero__gd586pazxqqa_large.jpg); background-repeat: no-repeat; background-size: cover; width: 494px; height: 830px;}
+.bluese{ background-image: linear-gradient(90deg,#1e3791 0%,#2948b1 40%,#3153c6 55%,#385fda 60%); color: transparent; background-clip: text;}
+
+/*스마일 맨*/
+.midimg{background-image: url(iphone/guided_tour__c40f88on9o8y_large.jpg); width: 1412px; height: 800px; background-size: cover; background-repeat: no-repeat; border-radius: 35px 35px 35px 35px; }
+.midimg .midimg-content{text-align: left; padding-left: 218px; padding-top: 302px;}
+.midimg .midimg-content span{display: block; color: #ffffff;}
+.cont1{font-size: 21px; font-weight: 600;}
+.cont2{margin: 10px 0; font-size: 42px; font-weight: 600;}
+.cont3{} 
+.cont3 a {display: block; text-decoration: none; transition: all 0.1s ease-in-out; background-color: #ffffff; text-align: center; color: #000000; border-radius: 980px; width: 105px; cursor: pointer; padding: 7px 15px; margin-top: 15px; font-size: 15px;} 
+.cont3 a:hover{background-color: #d1cece;}
+
+/*제품 목록*/
+#phone-contents{background-color: #ffffff; width: 100%; padding: 116px 0 119px;}
+#phone-contents h2{ text-align: center; }
+#phone-contents .conts{display: flex; margin-top: 0 auto; align-items: center; justify-content: center; text-align: center; gap: 50px; width: 980px; margin-left: auto; margin-right: auto; padding: 68px 20px 0;}
+#phone-contents .conts .detail-conts{display: flex; flex-direction: column; align-items: center; gap: 40px;}
+#phone-contents .conts .detail-conts .ph-item{display: flex; flex-direction: column; align-items: center; justify-content: center; }
+.ph-content .bb{flex-direction: column; align-items: center; justify-content: space-between;}
+.ph-content .bb button{ padding: 3px 10px; min-width: 25px; font-size: 11px;}
+
+p{display: block;}
+.logop{padding-bottom: 15px;}
+.ph-item h4{font-weight: 600;}
+.detail-conts .pop{min-height: 549.35px;}
+.tt {min-height: 126px;}
+.ph-item img{margin-bottom: 8px;}
+.ph-item h3{font-size: 30px; font-weight: 600; margin-top: 5px;}
+.ph-content img{margin-bottom:4px ; padding-bottom: 10px;}
+.lastp{padding-bottom: 45px; border-bottom: 1px solid #d2d2d7;}
+.lastp img{margin: 0px 85.75px 8px;}
+.linked{text-align: center; margin-top: 36px;}
+.linked a{color: #0071e3; font-size: 19px; cursor: pointer;}
+.linked .ll{margin-left: 30px; }
+
+/*발렌타인*/
+#sect{ overflow: hidden; margin: 0 auto;  background-color: #f5f5f7; margin: 15px 15px 0 15px;}
+#sect .bal-wrap{ padding: 0 30px; margin-top: 30px;}
+#sect .bal-wrap .bal{ max-width: 100%; background-image: url(iphone/val24_banner_iPhone__dauqy1u1uloy_large.jpg); background-size: cover; background-repeat: no-repeat; min-height: 570px; background-position: center; margin: 0 auto; display: flex; justify-content: center; padding: 1% 0 0 45.5%; background-color: #fff;}
+.bal .val24{display: flex; justify-content: center; align-items: center; text-align: center; max-width: 330px;}
+.bal .val24 .val-con{}
+.bal .val24 .val-con h2{margin-bottom: 29px; font-size: 43px; font-weight: 600;}
+.bal .val24 .val-con a{font-size: 19px; margin-top: 5px; cursor: pointer;}
+
+/*구입방법*/
+#buyse{text-align: center; padding-top: 90px; overflow: hidden; background-color: #f5f5f7;}
+#buyse .buycon{margin: 0 auto; box-sizing: border-box;}
+#buyse .buycon h2{ font-size: 50px; font-weight: 600;}
+.boxs{box-sizing: border-box; flex-basis: 50%; max-width: 50%; text-align: center;}
+.container1{ display: flex; flex-direction: row; width: auto; flex-wrap: wrap; overflow: hidden; max-width: 1440px; margin: 0 auto; padding: 0 30px; box-sizing: border-box;}
+.riff{margin-left: 20px;}
+
+.blef{text-align: center;}
+.brig{text-align: center;}
+.eend-con{padding-top: 115px; text-align: center; margin: 0 auto;}
+.boxb{text-align: center; flex-grow: 2; margin-bottom: 30px; background-color: #fff; background-position: bottom; padding-top: 0; flex-basis: 100%; max-width: 100%; margin-top: 20px;}
+.content-wraper{display: grid; overflow: hidden; box-sizing: border-box; height: 100%; min-height: 550px; padding-top: 30px; background-color: #fff;}
+.fst{background-image: url(iphone/trade_in__elbczdpbk06e_large.jpg); background-repeat: no-repeat; background-size: cover; width: 100%; height: 332px; align-self: end;}
+.snd{background-image: url(iphone/apple_card__bkmaxfjg05ua_large.jpg);margin-left: 100px; background-repeat: no-repeat; background-size: cover; width: 462px; height: 312px; align-self: end;}
+.eend{background-image: url(iphone/why_apple__ezn1ktvka6oi_large.jpg); background-repeat: no-repeat; background-size: cover; width: 1380px; height: 560px;}
+.lcont, .rcont{margin-bottom: 40px;}
+.rcont p, .lcont p {line-height: 2;}
+.lcont h3, .rcont h3, .eend-con h3 {line-height: 1.5; font-size: 20px; font-weight: 600;}
+a{cursor: pointer;}
+p {line-height: 1.5;}
+
+/*악세서리*/
+.sear{margin: 0 auto; padding-top: 80px; text-align: center; overflow: hidden; }
+
+.sear-item{display: flex; width: auto; flex-wrap: wrap; overflow: hidden; max-width: 1440px; margin: 0 auto; padding: 0 30px; box-sizing: border-box; flex-direction: row; }
+.sear-flex{text-align: center; flex-grow: 2; width: auto; box-sizing: border-box; flex-basis: 100%; max-width: 100%;}
+.update{position: relative; background-color: #fff; box-sizing: border-box; overflow: hidden; min-height: 530px; padding-top: 20px;}
+.sea{position: relative; display: flex; align-items: center; justify-content: center; z-index: 2; order: 1;}
+.se-wrap{width: 100%; max-width: 400px; }
+.se-wrap h2{font-size: 45px; font-weight: 600; margin-bottom: 25px;}
+.se-wrap p{font-size: 19px; line-height: 2;}
+.se-wrap a{font-size: 20px; }
+.posts{background-image: url(iphone/magsafe__bfji5hb1mqsy_large.jpg); width: 633px; height: 463px; background-size: cover; background-repeat: no-repeat; position: absolute; bottom: 0; left: 47%;}
+.posts2{background-image: url(iphone/airtag__b5lt0bcbd9ua_large.jpg); width: 806px; height: 531px; background-size: cover; background-repeat: no-repeat; position: absolute; bottom: 0; right: 42%;}
+.row3{display: flex; flex-wrap: wrap; flex-direction: row; width: 100%;}
+.boxs2{flex-basis: 50%; max-width: 50%; box-sizing: border-box; margin: 0; padding-top: 130px; min-width: 0px;}
+.se-end{max-height: 700px;}
+.boxs3{top: 31px; position: relative; display: flex; align-items: center; justify-content: center; margin-left: auto; margin-right: auto; flex-basis: 100%; max-width: 100%; box-sizing: border-box; margin: 0; padding: 0; min-width: 0px; z-index: 1;} 
+.se2-wrap{width: 295px; margin-top: 2px;}
+.se2-wrap h3{ font-size: 41px; font-weight: 600;margin-bottom: 20px;}
+.se2-wrap p{font-size: 19px; line-height: 1.6;}
+.se2-wrap a{font-size: 18px;}
+.boxs4{top: -68px; position: relative; display: flex; align-items: center; margin-left: auto; margin-right: auto; flex-basis: 100%; max-width: 100%; box-sizing: border-box; margin: 0; padding: 0; min-width: 0px;}
+.posts3{position: relative; margin-bottom: -25px; width: 1063px; height: 498px; background-repeat: no-repeat; background-image: url(iphone/airpods__eb24cvhoe26a_large.jpg); left: 50%; margin-left: -531.5px;}
+.sear-all{text-align: center; font-size: 21px; margin-top: 50px;}
+
+
+#bot-ba{overflow: hidden;}
+#bot-ba .buystr{padding-top: 83px; margin-bottom: 30px; text-align: center;}
+#bot-ba .buystr .bu-wrap{max-width: 1440px; margin: 0 auto;}
+#bot-ba .buystr .bu-wrap .flex-wrapb{display: flex; flex-wrap: wrap; justify-content: center;}
+.buy-title{box-sizing: border-box; max-width: 370px; flex-basis: 33.33333333%;}
+.buy-title h2{ font-size: 18px; font-weight: 600;}
+.buy-title p{margin-top: 20px; font-size: 18px; line-height: 1.6;}
+.buy-title a{font-size: 18px; }
+.b-icon1{margin-bottom: 15px; background-image: url(iphone/icon_delivery__f4vnk0swb0eq_large.png); width: 51px; height: 71px; background-size: cover; background-repeat: no-repeat; position: relative; left: 50%; margin-left: -25.5px;}
+.b-icon2{margin-bottom: 15px; width: 55px; height: 75px; background-size: cover; background-image: url(iphone/icon_financing__cz6p4nvq3a4i_large.png); position: relative; left: 50%; margin-left: -27.5px; }
+.b-icon3{ background-image: url(iphone/icon_personal_session__e6a44cdlylm6_large.png); margin-bottom: 15px; width: 71px; height: 75px; background-size: cover; background-repeat: no-repeat; position: relative; left: 50%; margin-left: -35.5px;}
+
+
+
+#anything{text-align: center; padding-top: 110px; overflow: hidden;}
+.any-item {background-image: url(iphone/ios17__glwsbqdnc6um_large.jpg); background-color: #fff; background-position: bottom; text-align: center; padding-top: 42px; padding-bottom: 520px; width: 1380px; height: 560px; background-size: cover; background-repeat: no-repeat; flex-grow: 2; margin-bottom: 30px; box-sizing: border-box; flex-basis: 100%; max-width: 100%;}
+.cont-wrap2{padding: 0 30px; grid-area: 1/1; height: 100%; display: flex; flex-direction: column; justify-content: space-between;}
+.cont-wrap3{text-align: center; flex-grow: 2; width: auto; margin-bottom: 30px; box-sizing: border-box; flex-basis: 100%; max-width: 100%;}
+.any-cont{max-width: 750px; margin: 0 auto;}
+.any-left{padding-right: 15px; width: 100%; text-align: center; flex-grow: 1; box-sizing: border-box; margin: 0 auto 30px; flex-basis: 50%; max-width: 50%;}
+.any-right{background-color: #fff; height: auto; width: 675px; text-align: center; flex-grow: 1; box-sizing: border-box; margin: 0 auto 30px; flex-basis: 50%; max-width: 50%;} 
+
+.backgrd-wrap{background-color: #fff;  height: 100%; width: 100%;position: relative; overflow: hidden;}
+.backgrd-wrap2{background-color: #fff; display: grid; padding-bottom: 0;  height: 100%; width: 100%; position: relative; overflow: hidden;}
+.cont-wrap{ display: flex; flex-direction: column; justify-content: space-between;}
+.cont-wrap h2{ font-size: 45px; font-weight: 600;}
+.cont-wrap a{}
+.img-wrap{position: relative; width: 100%; margin-top: 19px; height: 375px; flex: none; }
+.any-img1{width: 675px; height: 357px; background-size: cover; background-repeat: no-repeat; position: relative; background-image: url(iphone/switching_to_iphone__e3oz9r418awm_large.jpg); position: relative; left: 50%; margin-left: -337.5px;}
+.any-img2{width: 675px; background-repeat: no-repeat; background-image: url(iphone/privacy_update__cc6s1lqakkk2_large.jpg); background-position: bottom; grid-area: 1/1; margin: 0; background-size: cover; block-size: 100%; inline-size: 100%;}
+.nano{text-align: center;}
+.nano h2{margin-top: 62px; font-size: 42px; font-weight: 600; line-height: 1.4;}
+.nano a {font-size: 18px; margin: 20px 0; display: block;}
+/*one*/
+.title-cont{background-color: #fff; flex-direction: row; display: flex; width: 100%;}
+.one-img{padding-left: 4.75%; box-sizing: border-box; display: flex; justify-content: center; margin-top: 150px; margin-bottom: 130px; overflow: visible; flex-basis: 58.33333333%; max-width: 58.333333333;}
+.one-ig{width: 409px; height: 363px; background-size: 409px; height: 363px; background-size: cover;background-image: url(iphone/bundle__dlqe12erfzsm_large.jpg); background-repeat: no-repeat; }
+.one-wrap{display: flex; flex-direction: column; justify-content: center; align-items: flex-start; flex-basis: 41.666666667%; max-width: 41.666666667%;}
+.one-wrap2{display: flex; flex-direction: column; align-items: center; width: auto;margin-top: 4px; margin-left: -2%; z-index: 1;}
+.one-text{width: 317px; height: 100px; background-size: cover; background-repeat: no-repeat; background-image: url(iphone/apple_one__cq8ojsqxitea_large.jpg);}
+.one-wrap2 p{font-size: 24px; font-weight: 600; margin: 20px 0;}
+.one-link a{display: inline-block; font-size: 18px;}
+ 
+.todo-cont{background-color: #090a0e; text-align: center; overflow: hidden; height: 100%;}
+.todo-text{margin-bottom: 17px; margin-top: 67px; height: auto;}
+.todo-logo{background-image: url(iphone/apple_tv_plus_logo__gkj8brywycuq_large.png); background-size: cover; background-repeat: no-repeat; left: 50%; margin-left: -49px;width: 98px; height: 39px; position: relative;}
+
+.slid-btn{width: 32px; height: 32px; top: -2px; position: absolute; pointer-events: auto; right: 14px; display: block;}
+.slid-btn .s-btn2{width: 100%; height: 100%; background-size: contain; color: #fff; }
+#btn{}
+.play-icon{cursor: pointer; color: #fff;}
+.slide-bar{max-width: unset; position: relative; padding-top: 47.5px;}
+.slide-wrap{display: flex; will-change: transform; margin-left: -210px; transform: translateX();}
+.slide-wrap ul, .two-s ul{margin: 0; padding: 0; white-space: nowrap; transition: transform 0.5s ease;}
+.slide-wrap ul li, .two-s ul li{display: inline-block; border-radius: 10px; background-size: cover; position: relative; margin: 0 6px 6px; width: 238px; height: 135px;}
+.slide-wrap ul li a, .two-s ul li a{display: block; position: absolute; width: 100%; height: 100%;}
+.slide-wrap ul li a h4, .two-s ul li a h4{display: flex; justify-content: center; position: absolute; width: 100%; height: 100%; top: 0; left: 0;  background-color: rgb(0,0,0, 0.4); opacity: .001; transition: opacity .3s; margin: 0;}
+.slide-wrap ul li a h4 span, .two-s ul li a h4 span{font-size: 12px; position: absolute; top: 50%; left: 50%; transition: transform .4s;  transform: translate(-50%, -50%); cursor: pointer; display: inline-block; text-align: center; white-space: nowrap; min-width: 30px; padding: 7px 15px; border-radius: 980px; font-weight: 600; background-color: #fff; color: #1d1d1f; border: 1px solid transparent; }
+.slide-wrap ul li a h4 span::after, .two-s ul li a h4 span::after{padding-left: 0.3em; top: 0; color: inherit; display: inline-block; font-weight: inherit; font-size: inherit; line-height: 1; position: relative; z-index: 1; text-decoration: none; text-align: center; white-space: nowrap; }
+
+.slide-wrap ul li:hover a h4, .two-s ul li:hover a h4 {opacity: 1;}
+.slide-wrap ul li a h4 span:hover, .two-s ul li a h4 span:hover{opacity: 0.8;}
+
+.two-s{display: flex; will-change: transform; margin-left: -210px; transform: translateX();}
+
+
+
+.todo-two{padding-right: 15px; width: 100%; text-align: center; flex-grow: 1; box-sizing: border-box; margin: 0 auto 30px; flex-basis: 50%; max-width: 50%;}
+.todo-two .todo-wraper{display: block; overflow: hidden; background-color: #fff; position: relative; height: 100%; margin-left: auto; margin-right: auto;}
+.todo-two .todo-wraper .todo-back{background: linear-gradient(rgb(37,107,187), rgb(14,126,255)); position: absolute; left: 0; right: 0; top: 0; bottom: 0; z-index: 0;}
+.todo-text{color: #fff; position: relative; margin-left: auto; margin-right: auto; max-width: 66.666666667%;}
